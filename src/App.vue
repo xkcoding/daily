@@ -91,7 +91,7 @@ export default {
     },
     handleToRecommend () {
       this.type = 'recommend'
-      this.showThemes = !this.showThemes
+      this.showThemes = false
       this.recommendList = []
       this.dailyTime = $.getTodayTime()
       this.getRecommendList()
